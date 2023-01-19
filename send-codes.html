@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Flash call</title>
+    <meta name="Description" content="Альтернативное доставкам при помощи SMS решение, при котором код подтверждения поступает клиенту в виде последних цифр телефонного номера, с которого на телефон клиента поступает звонок"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(65485744, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/65485744" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <div class="main-section">
+        <div class="container big-container">
+            <header class="header flex justify-between align-center">
+                <a href="/">
+                    <div class="logo flex align-center">
+                        <img src="img/logo.svg" alt="">
+                        <span>Облачные Телекоммуникационные Технологии</span>
+                    </div>
+                </a>
+                <nav class="right-nav">
+                    <ul class="flex justify-between  align-center">
+<!--
+                        <li class="dropdown">
+                            <a class="flex align-center" href = "javascript:void(0);">Протестируйте наши сервисы</a>
+                            <ul class="dropdown-nav">
+                                <li>
+                                    <a href="show-virtual-visit.html">Виртуальная визитная карточка</a>
+                                </li>
+                                 
+                                <li>
+                                    <a href="show-voice-password.html">Voice password</a>
+                                </li>
+                                <li>
+                                    <a href="show-ivr.html">Интеллектуальный IVR (Unibot)</a>
+                                </li>
+                                <li>
+                                    <a href="show-text-to-speach.html">Text to speach (генерация текста в голос)</a>
+                                </li>
+                                <li>
+                                    <a href="show-unibot.html">Unibot для урегулирования задолженностей</a>
+                                </li>
+                            </ul>
+                        </li>
+-->
+                        <li class="service-nav">
+                             <a class="flex align-center" href="#">Решения</a>
+                            <ul class="dropdown-nav">
+                                <li>
+                                    <div class="dropdown__title">Проекты</div>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://dialing.pro/">Колл-центр “Дайлинг”</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown__title">Сервисы</div>
+                                </li>
+                                <li>
+                                    <a href="ip-phone.html">IP-телефония</a>
+                                </li>
+                                <li>
+                                    <a href="golos-messagers.html">Голосовые оповещения</a>
+                                </li>
+                                <li>
+                                    <a href="intellectualnii-lvr.html">Интеллектуальный IVR</a>
+                                </li>
+                                <li>
+                                    <a href="sender-messages.html">Рассылка в мессенджеры</a>
+                                </li>
+                                <li>
+                                    <a href="hlr.html">HLR-запросы</a>
+                                </li>
+                                <li>
+                                    <a href="send-codes.html">Flash call</a>
+                                </li>
+                                <li>
+                                    <a href="sms.html">SMS-уведомления</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown__title">Отраслевые предложения</div>
+                                </li>
+                                <li>
+                                    <a href="robot-calls.html">Для медицинских центров</a>
+                                </li>
+                                <li>
+                                    <a href="robot-alert.html">Для охранных предприятий</a>
+                                </li>
+                                <li>
+                                    <a href="npc.html">NPS-опросы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="enter-nav">
+                            <a class="flex align-center" href="https://billing.unibell.ru/" rel="nofollow">Вход в систему</a>
+                        </li>
+                        <li class="help-nav">
+                            <a class="flex align-center" target="_blank" href="https://docs.unibell.ru/" rel="nofollow">Справочный центр</a>
+                        </li>
+                        <li class="contacts-nav">
+                            <a class="flex align-center" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="container middle-container flex content-main-section send-codes-main align-center justify-between">
+            <div class="content-main-left">
+                <h1>Flash call</h1>
+                <div>Альтернативное доставкам при помощи SMS решение, при котором код подтверждения поступает клиенту в виде последних цифр телефонного номера, с которого на телефон клиента поступает звонок</div>
+                <a href="#down" class="btn">Подробнее</a>
+
+                <div class="list-icons-main flex">
+                    <div class="list-icons-item">
+                        <div><span class="fz-30">></span>10 млн.</div>
+                        запросов кодов в месяц
+                    </div>
+                    <div class="list-icons-item">
+                        <div><span class="fz-30">></span>1000</div>
+                        кодов в минуту
+                    </div>
+                    <div class="list-icons-item">
+                        <div><span>от</span>0,60</div>
+                        руб. за 1 доставку
+                    </div>
+                </div>
+            </div>
+                <div class="main-section__img">
+                <img src="img/send-code-img.svg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="card-info send-codes-info" id="down">
+        <div class="container big-container">
+            <div class="left-card">
+                <div>
+                    <div class="left-card__title">До 4х раз выгоднее, чем доставка<br>при помощи SMS</div>
+                    <p>Решение подходит для всех операций, где требуется идентификация или дополнительное подтверждение действий со стороны пользователей: при регистрации на сайтах или в приложениях; при восстановлении пароля; при получении одноразовых доступов без регистрации; функция CAPTCHA для защиты от ботов; активация подарочных карт и промокодов и др.</p>
+                </div>
+            </div>
+            <div class="right-card">
+                <div class="price-title">стоимость</div>
+                <div class="right-card__info">
+                    <div>0,60</div>
+                    руб. за 1 доставку
+                </div>
+                <div class="right-card__img">
+                    <img src="img/send-code-card-img.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container middle-container info-yep-list flex wrap">
+            <div class="info-yep__item">
+                <div class="info-yep__title">Широкий базовый диапазон </div>
+                <p>В распоряжении полный неразрывный диапазон четырехзначных кодов от 0000 <br> до 9999 </p>
+            </div>
+            <div class="info-yep__item">
+                <div class="info-yep__title">Расширенный диапазон</div>
+                <p>Количество цифр в коде может быть расширено до 5 и 6</p>
+            </div>
+            <div class="info-yep__item">
+                <div class="info-yep__title">Возможность перезванивать</div>
+                <p>Опционально доступны подключение и настройка голосового помощника для информирования клиента о причине звонка и озвучивания кода доступа, если тот перезванивает на номер</p>
+            </div>
+            <div class="info-yep__item">
+                <div class="info-yep__title">Скорость и охват</div>
+                <p>Благодаря нашей системе, звонки с кодами доставляются мгновенно, вне зависимости от количества и частоты запросов на любые номера по всему миру</p>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <footer class="footer" id="contacts">
+        <div class="container middle-container">
+            <div class="footer-logo flex align-center">
+                <img src="img/logo.svg" alt="">
+                <span>Облачные Телекоммуникационные Технологии</span>
+            </div>
+            <div class="footer-contacts flex">
+                <div class="footer-contacts__row">
+                    <div class="footer-contacts__title">Контакты</div>
+                    <p>Адрес: г. Уфа, ул. Менделеева, 170, этаж 11, офис 1111</p>
+                    <p>info@unibell.ru</p>
+                    <p>тел. 8 800 201 22 16</p>
+                    <p>Техническая поддержка: 8 800 201 22 16 </p>
+                </div>
+                <div class="footer-contacts__row">
+                    <div class="footer-contacts__title">Юридические данные</div>
+                    <p>ООО “Корпоративные Коммуникации”</p>
+                    <p>Юр. адрес: г. Уфа, ул. Менделеева, 170, этаж 11, офис 1111</p>
+                    <p>ИНН 0273925407, КПП 027601001</p>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="container middle-container flex justify-between align-center">
+                <div class="copy__left">
+                    <p>ООО “Корпоративные Коммуникации”, 2021</p>
+                    <span>Цены, указанные на сайте не являются публичной офертой. Актуальные цены узнавайте у менеджеров.</span>
+                </div>
+                <div class="copy__right">
+                    <a class="copy__phone" href="tel:88002012216">8 800 201 22 16</a>
+                    <p>Тех/поддержка:  8 800 201 22 16</p>
+                </div>
+            </div>
+            <div class="vk-abs">vk 373</div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

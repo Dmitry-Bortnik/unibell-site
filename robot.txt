@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /index.htm/
+Allow: /golos-messagers.html/
+Allow: /hlr.html/
+Allow: /intellectualnii-lvr.html/
+Allow: /ip-phone.html/
+Allow: /npc.html/
+Allow: /robot-alert.html/
+Allow: /robot-calls.html/
+Allow: /send-codes.html/
+Allow: /sender-messages.html/
+Allow: /sms.html/ 
+Allow: /
+sitemap: https://unibell.ru/sitemap.xml
